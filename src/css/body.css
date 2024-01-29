@@ -1,0 +1,23 @@
+.body-container {
+  display: flex;
+  position: absolute;
+  top: 12%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(169, 169, 161);
+}
+
+
+@media (min-width: 350.1px) and (max-width: 800px) {
+  .side-border {
+    width: 4%;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .side-border {
+    width: 3%;
+  }
+}

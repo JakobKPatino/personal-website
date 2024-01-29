@@ -1,0 +1,28 @@
+.resume-page {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.background-photo {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: left 25%;
+  z-index: 0;
+}
+
+.resume-container {
+  display: flex;
+  position: absolute;
+  width: 75%;
+  height: 80%;
+  top: 10%;
+  border: 1px solid black;
+}
+
+.resume {
+  height: 100%;
+  width: 100%;
+}
